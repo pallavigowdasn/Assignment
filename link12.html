@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                width: 80%;
+                margin: auto;
+            }
+            nav ul li{
+                display: inline-block;
+                padding: 10px;
+                margin: 10px;
+            }
+            nav{
+                display: flex;
+                justify-content: space-between;
+            }
+            a{
+                text-decoration: none;
+            }
+           .right{
+            color: aqua;
+           }
+           button{
+            background-color: aqua;
+            border: none;
+            border-radius: 30px;
+            padding: 5px;
+            color: white;
+           }
+           .container{
+            width: 30%;
+            margin: auto;
+            text-align: center;
+           }
+           .btn{
+            border: none;
+            border-radius: 30px;
+            background-color: plum;
+            padding: 10px;
+            
+           }
+           .container1{
+            display: grid;
+            grid-template-columns: auto auto auto;
+           }
+           .img1{
+            text-align: center;
+            padding: 30px;
+            width: 40%;
+            margin: auto;
+            border-right: 1px dotted black;
+            height: 50px;
+           
+           }
+           
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><b>Startup3</b></li>
+            </ul>
+            <ul>
+                <li><a href="">Tour</a></li>
+                <li><a href="">Prices</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">F.A.Q</a></li>
+                <li><a href="">support</a></li>
+            </ul>
+            <ul>
+                <li><a class="right">login</a></li>
+                <li><button>Sign up</button></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1>Build Your Own site like a lego constructor</h1>
+            <p>we have created a new product that will help designers,developers and 
+                companies create websites for their startups quickly and easily</p>
+                <button class="btn">create account</button>
+        </div>
+        <div class="container1">
+            <div class="img1">
+                <img src="1.jpg" height="80" width="80" />
+                <p>A high-quality solution for a beautifull startup website.</p>
+            </div>
+            <div class="img1">
+                <img src="2.jpg" height="80" width="80" />
+                <p>startups can save money on design and code and use those savings to develop the business</p>
+            </div>
+            <div class="img1">
+                <img src="3.jpg" height="80" width="80" />
+                <p>startup framework includes great form options for your startup projects</p>
+            </div>
+        </div>
+    </body>
+</html>

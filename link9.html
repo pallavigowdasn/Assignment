@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: auto;
+            width: 50%;
+        }
+
+        nav ul li {
+            display: inline-block;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            border-radius: 20px;
+            background-color: blueviolet;
+            border: none;
+            padding: 10px 30px 10px;
+            color: white;
+
+
+
+
+        }
+        .container{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .btn1{
+            border-radius: 20px;
+            background-color: aquamarine;
+            border: none;
+            padding: 10px 30px 10px;
+            color: white;
+        }
+        .btn2{
+            border-radius: 20px;
+            background-color: white;
+            border: none;
+            padding: 10px 30px 10px;
+            color:black;
+        }
+        .img1{
+            border: 10px solid black;
+           float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="start"><b>startup3</b></li>
+        </ul>
+        <ul>
+            <li><a href="">about</a></li>
+            <li><a href="">features</a></li>
+            <li><a href="">contacts</a></li>
+            <button>Buy</button>
+        </ul>
+    </nav>
+    <div class="container">
+        <div>
+            <h1>Great things<br />begin in a <br/>small way</h1>
+            <p>We haven't forgotten about <br/>responsive layout.With startup framework<br />you can creates a website
+                with full mobile support</p>
+            <button class="btn1">get started</button><button class="btn2">learn more</button>
+
+        </div>
+       <center>
+            <img src="3.jpg" height="400" width="300" class="img1"/>
+        </center>
+
+    </div>
+</body>
+
+</html>

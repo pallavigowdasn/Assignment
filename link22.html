@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: auto;
+                width: 70%;
+                background-color: blue;
+            }
+            nav ul li{
+                display: inline-block;
+                margin: 10px;
+                padding: 10px;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            nav{
+                display: flex;
+                justify-content: space-between;
+            }
+            b{
+                color: white;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+            .container1{
+                width: 40%;
+                margin-left: 30px;
+                color: white;
+            }
+            .container3{
+                width: 50%;
+                padding: 20px;
+                height: 400px;
+                margin: auto;
+                background-color: white;
+                text-align: center;
+            }
+            
+            .input1{
+                border-radius: 30px;
+                margin: 10px 20px 10px;
+                padding: 10px;
+            }
+            .btn1{
+                border-radius: 30px;
+                border: none;
+                background-color: pink;
+                padding: 10px;
+            }
+            .btn2{
+                border-radius: 30px;
+                border: none;
+                background-color: purple;
+                margin: 20px;
+                padding: 10px;
+                width: 80%;
+                color: white;
+            }
+            .btn3{
+                border-radius: 30px;
+                border: none;
+                background-color: lightblue;
+                padding: 10px;
+                width: 80%;
+                color: white;
+            }
+            h6{
+                color: aqua;
+            }
+          
+        </style>
+        <body>
+            <nav>
+                <ul>
+                    <li><b>Stratup3</b></li>
+                </ul>
+                <ul>
+                <li> <a href="">overview</a></li>
+                <li><a href="">prices</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">feedback</a></li>
+                <li><button class="btn1">purchase</button></li>
+              </ul>
+            </nav>
+            <div class="container">
+                <div class="container1">
+                    <h1>generate Awesome Web pages</h1>
+                    <p>the most important part of the startup is the samples.
+                        the samples form a set of 25 usable pages form  a set of 25 usable pages you can use as is or you
+                        can add  new blocks
+                    </p>
+                    <button class="btn1">learn more</button>
+                </div>
+                <div class="container3">
+                    <h2>sign up now</h2>
+                    <input type="email" placeholder="your email" class="input1"/>
+                    <input type="password" placeholder="your password" class="input1"/><br/>
+                    <input type="checkbox"/>
+                    <label>I agree to the terms of service</label>
+                    <button class="btn2">sign in</button>
+                    <p>-----------------or-------------</p>
+                    <button class="btn3"> login via twitter</button>
+                    <p>Do you have an account?sign in</p>
+                </div>
+
+            </div>
+        </body>
+    </head>
+</html>
